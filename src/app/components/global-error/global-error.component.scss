@@ -1,0 +1,15 @@
+.error {
+  color: #9d1a1a;
+  font-weight: bold;
+  position: relative;
+
+  &__close-btn {
+    background-color: transparent;
+    cursor: pointer ;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+  }
+}

@@ -1,0 +1,6 @@
+<div class="modal" (click)="modalService.close()">
+  <div class="modal__window" (click)="$event.stopPropagation()">
+    <h2>{{title | titlecase}}</h2>
+    <ng-content/>
+  </div>
+</div>
